@@ -1,1 +1,3 @@
-# estudos-sobre-dados-SQL-e-NoSQL
+# contexto geral -- Estudo independente sobre banco de dados SQL e NoSQL
+
+
