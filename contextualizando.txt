@@ -1,0 +1,31 @@
+-- o que é SQL?
+primeiramente, o que seria um banco relacional? é um tipo de banco em que pretende-se armazenar relacionamentos, onde existe uma normalização de informações,
+um exemplo seria um esquema de e-commerce, quando vamos modelar o sistema, já sabemos previamente o que vai ser colocado ou não neste esquema rígido, com um modelo bem 
+definido.
+
+-- o que é NoSQL?
+(Not Only Structured Query Language) uma alternativa aos bancos relacionais.
+permite o armazenamento de dados não estruturados.
+Documentos;
+Chave-valor;
+Grafos;
+Colunas.
+
+-- a ideia dos bancos NoSQL não é substituir os bancos SQL, mas sim complementar, possibilitar a resolução de problemas que em um banco SQL não seria possível.
+
+[YT] Como encontrar algo armazenado quando não se sabe a estrutura? e como isso pode performar?
+Ao definir chaves e armazenas corretamente os dados é possível encontrar o que se procura,
+É importante atentar-se a modelagem, para que seja possível encontrá-los com mais facilidade.
+
+[YT] O SQL foi feito para os OLTP que precisam do ACID. Já o NoSQL veio para 'perverter' um pouco isso e gerar mais flexibilidade.
+É necessário um contexto de fato consistente.
+
+BANCO CARREFOUR
+SGDB's mais utilizados
+Oracle -- gerenciamento de dados (BI/On-prime)
+HDFS/Hadoop -- BIG DATA
+
+[YT] Tem alguma soluções como DataBricks que consegue manter certa forma o ACID dentro da camada DataLake. Como funciona essa ingestão e o refinamento dos dados em relação às ferramentas usadas?
+Ajudam na consistencia de informações, o Lake é um repositorio de informações em que é possivel o armazenamento de varios tipos de dados com grande capacidade. 
+
+ 
